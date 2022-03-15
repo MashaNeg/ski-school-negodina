@@ -1,5 +1,54 @@
-.product-title {
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* common */
+body {
+  font-family: Montserrat, sans-serif;
+  color: #060D10;
+}
+
+/* header */
+.header {
+  background: #66D1FF;
+}
+
+/* main */
+
+/* section product */
+.product {
+  color: #fff;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
+.product-title {
+  font-family: Oswald;
   font-size: 60px;
   line-height: 89px;
   align-items: center;
@@ -15,8 +64,9 @@
   text-align: center;
 }
 
+/* section features */
 .features-title {
-  font-weight: 500;
+  font-family: Oswald;
   font-size: 48px;
   line-height: 80px;
   text-align: center;
@@ -24,6 +74,7 @@
 }
 
 .features-heading {
+  font-family: Oswald;
   font-weight: 500;
   font-size: 32px;
   line-height: 53px;
@@ -34,9 +85,12 @@
   font-weight: normal;
   font-size: 26px;
   line-height: 36px;
+  opacity: 0.8;
 }
 
+/* section slogan */
 .slogan-title {
+  font-family: Oswald;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
@@ -53,9 +107,22 @@
   text-align: center;
 }
 
+/* footer */
+.footer {
+  background: #060D10;
+}
 .social-title {
+  color: #fff;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
+}
+
+.copyright {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
