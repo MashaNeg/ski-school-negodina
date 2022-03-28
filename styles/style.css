@@ -47,7 +47,7 @@ img {
 .container {
   width: 1278px;
   margin: 0 auto;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 .btn {
@@ -111,10 +111,12 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: rgba(6, 13, 16, 0.25);
 }
 
 .product-title {
   font-family: Oswald;
+  margin: 0;
   font-size: 60px;
   line-height: 89px;
   align-items: center;
@@ -123,6 +125,8 @@ img {
 
 .product-desc {
   font-weight: 500;
+  margin: 0;
+  padding-top: 60px;
   font-size: 32px;
   line-height: 39px;
   align-items: center;
@@ -137,6 +141,7 @@ img {
 .features-wrap {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 100px;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -149,10 +154,12 @@ img {
 .features-card {
   height: 100%;
   padding: 0;
+  margin: 0;
 }
 
 .features-title {
   font-family: Oswald;
+  margin: 0;
   font-size: 48px;
   line-height: 80px;
   text-align: center;
@@ -161,6 +168,7 @@ img {
 
 .features-heading {
   font-family: Oswald;
+  margin: 0;
   font-weight: 500;
   font-size: 32px;
   line-height: 53px;
@@ -176,8 +184,9 @@ img {
 
 /* section slogan */
 .slogan {
-  padding: 170px 0;
+  padding: 170px 0 180px 0;
   text-align: center;
+  /* background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0.1) 43.86%); */
 }
 
 .pictures {
@@ -190,7 +199,7 @@ img {
 
 .slogan-title {
   font-family: Oswald;
-  margin-bottom: 0;
+  margin: 0;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
@@ -200,24 +209,27 @@ img {
 
 /* footer */
 .footer {
-  padding: 35px 0;
+  padding: 40px 0;
   color: #fff;
   background: #060d10;
 }
 
 .footer-wrap {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .social-title {
   font-weight: 500;
+  margin: 0;
   font-size: 20px;
   line-height: 33px;
 }
 
 .copyright {
   font-weight: 500;
+  margin: 0;
+  margin-left: auto;
   font-size: 18px;
   line-height: 22px;
 }
@@ -225,10 +237,14 @@ img {
 .social {
   display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 50px;
 }
 
 .social-item {
-  margin-left: 20px;
+  margin: 0;
+  margin-right: 20px;
 }
 
 .social-link {
