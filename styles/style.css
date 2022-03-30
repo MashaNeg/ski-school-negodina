@@ -101,8 +101,6 @@ img {
 
 /* section product */
 .product {
-  padding-top: 230px;
-  padding-bottom: 260px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -111,6 +109,12 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: rgba(6, 13, 16, 0.25);
+}
+
+.product-fade {
+  padding-top: 230px;
+  padding-bottom: 260px;
   background-color: rgba(6, 13, 16, 0.25);
 }
 
@@ -184,9 +188,12 @@ img {
 
 /* section slogan */
 .slogan {
-  padding: 170px 0 180px 0;
   text-align: center;
-  /* background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0.1) 43.86%); */
+}
+
+.slogan-gradient {
+  padding: 170px 0 180px 0;
+  background: linear-gradient(208.35deg, rgb(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
 }
 
 .pictures {
